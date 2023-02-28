@@ -1,0 +1,791 @@
+@font-face
+    font-family: "Montserrat-R"
+    src: local('Montserrat')
+    src: url('../fonts/Montserrat-Regular.ttf')
+    font-weight: regular
+    font-style: normal
+    font-display: swap
+
+@font-face
+    font-family: "Montserrat-M"
+    src: local('Montserrat')
+    src: url('../fonts/Montserrat-Medium.ttf')
+    font-weight: 500
+    font-style: normal
+    font-display: swap
+
+@font-face
+    font-family: "Montserrat-EB"
+    src: local('Montserrat')
+    src: url('../fonts/Montserrat-ExtraBold.ttf')
+    font-weight: 800
+    font-style: normal
+    font-display: swap
+
+@font-face
+    font-family: "Montserrat-SB"
+    src: local('Montserrat')
+    src: url('../fonts/Montserrat-SemiBold.ttf')
+    font-weight: 600
+    font-style: normal
+    font-display: swap
+    
+@font-face
+    font-family: "Montserrat-SB-I"
+    src: local('Montserrat')
+    src: url('../fonts/Montserrat-SemiBoldItalic.ttf')
+    font-weight: 600
+    font-style: italic
+    font-display: swap
+
+@font-face
+    font-family: "Montserrat-B"
+    src: local('Montserrat')
+    src: url('../fonts/Montserrat-Bold.ttf')
+    font-weight: 700
+    font-style: normal
+    font-display: swap
+
+@font-face
+    font-family: "Oswald-SB"
+    src: url('../fonts/Oswald-SemiBold.ttf')
+    font-weight: 600
+    font-style: normal
+    font-display: swap
+
+body
+    font-family: 'Montserrat-SB'
+    font-size: 15px
+    font-weight: 600
+
+.first-section
+    height: 100vh
+    background-image: url(../img/background.jpg)
+    background-position: center
+    background-size: cover
+    a
+        text-decoration: none
+        font-size: 13px
+        font-weight: 500
+    &__nav-container
+        display: flex
+        flex-direction: row
+
+.bi
+    padding-right: 10px
+.nav-menu
+    .list-item__telephone
+        min-width: 160px
+        p
+            margin-bottom: 0
+    &__list
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: center
+        margin-right: 15px
+
+    &__list-item
+        list-style-type: none
+        color: white
+        p
+            font-size: 18px
+            font-weight: 700
+.navbar__adress
+    margin: 0 auto
+ul
+    padding-left: 0rem
+    margin-bottom: 0
+
+
+h1
+    color: white
+    font-family: 'Montserrat-EB'
+    font-size: 50px
+
+h2
+    font-family: 'Oswald-SB'
+    font-weight: 600
+
+h5
+    font-family: 'Oswald-SB'
+    font-weight: 600
+    font-size: 24px
+
+h6
+    font-family: 'Oswald-SB'
+    font-size: 24px
+    font-weight: 600
+.modal-dialog
+    .modal-header
+        position: relative
+        color: white
+        border-bottom: none
+    .modal-footer
+        border-top: none
+    .modal-body
+        text-align: center
+        color: white
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+    .input-group
+        display: flex
+        flex-direction: column
+        justify-content: end
+    .input-text
+        font-family: 'Montserrat-M'
+        font-weight: 500
+        font-size: 14px
+    .modal-content-order
+        background: url(../img/btn/order-call.jpg) center/contain
+        background-repeat: no-repeat
+        width: 558px
+        height: 620px
+.btn-submit
+    font-size: 14px
+    height: 38px
+    width: 100%
+
+#navbarSupportedContent
+    padding: 20px
+.bg-dark
+    background-color: #040607 !important
+    // backdrop-filter: blur(5px)
+    // &::before
+    //     filter: blur(5px)
+
+
+.accordion-header
+    font-family: 'Oswald-SB'
+    font-weight: 600
+    font-size: 24px
+    display: flex
+    flex-direction: row
+.accordion-button:not(.collapsed)
+    color: #EA8F41
+    background-color: #e7f1ff00
+
+.warning-text
+    color: #FF7600
+    font-weight: 600
+
+.btn-order
+    width: 196px
+    height: 46px
+    font-family: 'Montserrat-B'
+    font-size: 16px
+    font-weight: 700
+
+.btn-warning
+    background: #FF7600
+    border-radius: 5px
+    border: none
+    color: white
+
+.first-section__container
+    position: relative
+    top: 5%
+    ul
+        padding-left: 0rem
+    li
+        list-style-type: none
+        background: url(../img/list-item.svg) no-repeat
+        padding-left: 3rem
+        padding-bottom: 1rem
+        &:last-child
+            padding-bottom: 4px 
+
+.main-container
+    &__list
+        color: white
+        margin-bottom: 3rem
+    
+    &__title
+        margin-bottom: 2rem
+
+.btn-reservation
+    width: 264px
+    height: 45px
+    font-family: 'Montserrat-B'
+    font-size: 16px
+    font-weight: 700
+
+.btn__room-reservation
+    width: 264px
+    height: 45px
+    font-family: 'Montserrat-B'
+    font-size: 16px
+    font-weight: 700
+
+.photo-gallery-section
+    min-height: 550px
+    background-color: #F1F1F1
+    padding-top: 5rem
+    overflow: hidden
+    &__title
+
+
+    &__btn-wrapper
+        display: flex
+        justify-content: center
+        margin-bottom: 6rem
+        
+.title
+    font-size: 40px
+    position: relative
+    top: -30px
+    font-weight: 600
+
+.title_black
+    color: black
+    
+
+
+.title-shadow
+    font-family: 'Oswald-SB'
+    font-weight: 600
+    font-size: 70px
+    line-height: 70px
+    display: flex
+    align-items: center
+    color: #DFDFDF
+    margin: 0
+
+.carousel-inner
+    margin-bottom: 3rem
+
+.advantages-section
+    min-height: 850px
+    padding-top: 5rem
+    background: url(../img/bubbles.jpg) center/contain
+    ul
+        padding-left: 0
+    li
+        list-style-type: none
+        background: url(../img/list-item.svg) no-repeat
+        padding-left: 3rem
+        padding-bottom: 1rem
+        &:last-child
+            padding-bottom: 2rem
+
+    .card-title
+        font-size: 24px
+
+.card
+    border: none
+.card-body
+    padding-top: 0
+    padding-bottom: 0
+    padding-left: 0
+
+    li
+        font-size: 15px
+
+.couch-section
+    min-height: 658px
+    padding-top: 5rem
+    position: relative
+    background: url(../img/sofa.jpg) no-repeat center/cover
+    &__title
+        top: -60px
+    &__container
+        overflow: hidden
+        position: absolute
+        top: 10%
+        right: 0%
+        max-width: 765px
+        background: #000000
+        opacity: 0.8
+        backdrop-filter: blur(27.5px)
+    &__text
+        color: #FFFFFF
+        font-size: 15px
+
+.title-shadow_white
+    color: #F1F1F1
+    opacity: 0.2
+
+.title_white
+    color: #FFFFFF
+
+
+.promotion-section
+    min-height: 690px
+    padding-top: 5rem
+    background: url(../img/fith-section/back.jpg) center repeat
+    &__text
+        max-width: 558px
+        text-align: center
+        margin: 0 auto
+        padding-top: 3.75rem
+        padding-bottom: 3.75rem
+    .card-img-top
+        padding-bottom: 1.75rem
+
+
+.sauna-section
+    min-height: 720px
+    background-image: url(../img/six-section/back.jpg)
+    background-position: center
+    background-size: cover
+    position: relative
+    padding-top: 5rem
+    &__wrapper
+        padding-top: 0.5rem
+    ul
+        padding-left: 0rem
+    li
+        list-style-type: none
+        background: url(../img/list-item.svg) no-repeat
+        padding-left: 3rem
+        padding-bottom: 1rem
+        &:last-child
+            padding-bottom: 0.25rem
+    .sauna-section-title
+        top: -70px
+    .card-text_italic
+        margin-bottom: 1.75rem
+        font-family: "Montserrat-SB-I"
+        font-style: italic
+    &__second-card-wrapper
+        position: relative
+        top: -25px
+
+.features-section
+    min-height: 720px
+    background: #F1F1F1
+    padding-top: 5rem
+    &__title
+        top: -70px
+    .card-img-top
+        padding-bottom: 2rem
+    .card
+        padding-bottom: 3rem
+
+.kitchen-section
+    background: url(../img/eighth-section/back.jpg) center/cover no-repeat
+    min-height: 800px
+    padding-top: 5rem
+    .title-shadow
+        display: block
+    &__text
+        color: #FFFFFF
+        font-family: "Montserrat-SB-I"
+    &__icons-wrapper
+        display: flex
+        flex-direction: row
+        justify-content: center
+
+.hotel-section
+    min-height: 900px
+    overflow: hidden
+    background: url(../img/ninth-section/head.png) no-repeat left bottom
+    padding-top: 5rem
+    &__carousel
+        padding-right: 1.5rem
+    &__title-shadow
+        position: relative
+        top: -20px
+    &__title
+        top: -120px
+    &__card-text
+        position: relative
+        top: -80px
+    .icons-box
+        width: 264px
+        height: 35px
+        display: flex
+        justify-content: space-between
+        margin-bottom: 2rem
+        position: relative
+        top: -62px
+    ul
+        padding-left: 0rem
+        position: relative
+        top: -62px
+    li
+        list-style-type: none
+        background: url(../img/list-item.svg) no-repeat
+        padding-left: 3rem
+        padding-bottom: 1rem
+        &:last-child
+            padding-bottom: 0.25rem
+    .btn-order
+        position: relative
+        top: -62px
+        margin-bottom: 3rem
+    .badge
+        background-color: #FF7600
+        padding: 10px 10px
+        opacity: 0.9
+        border-radius: 5px
+        right: 1rem
+        top: 1rem
+        font-size: 15px
+        font-weight: 600
+
+.modal-content-room-reservation
+    background: url(../img/btn/reserv-room.jpg) center/contain
+    background-repeat: no-repeat
+    width: 558px
+    height: 620px
+
+.modal-content-reservation
+    background: url(../img/btn/reservation.jpg) center/contain
+    background-repeat: no-repeat
+    width: 558px
+    height: 620px
+
+
+.party-section
+    min-height: 720px
+    background: #F1F1F1
+    padding-top: 5rem
+    &__title
+        top: -70px
+    .card-img-top
+        margin-bottom: 1.75rem
+    .card-title
+        margin-bottom: 3rem
+    .card-text
+        padding-top: 0.75rem
+
+.answer-section
+    padding-top: 5rem
+    min-height: 1000px
+    padding-bottom: 5rem
+    &__title
+        top: -70px
+    .accordion-button
+        font-size: 24px
+        font-weight: 600
+
+.footer-section
+    min-height: 700px
+    overflow: hidden
+    background: url(../img/footer/back.jpg) no-repeat center/cover
+    padding-top: 5rem
+    padding-bottom: 5rem
+    .card-text
+        color: white
+        &__phone
+            font-family: 'Montserrat-B'
+            font-weight: 700
+            font-size: 24px
+        &__adress
+            margin-bottom: 2rem
+            font-size: 15px
+            span
+                font-size: 18px
+    .social-items__box
+        a
+            display: flex
+            flex-direction: row
+            align-items: center
+            text-decoration: none
+            color: white
+            font-weight: 600
+            font-size: 16px
+            margin-bottom: 1rem
+        img
+            padding-right: 1.5rem
+        p
+            margin-bottom: 0
+            font-family: "Oswald-SB"
+    &__btn
+        margin-top: 1rem
+        margin-bottom: 3rem
+    iframe
+        z-index: 1
+        position: relative
+        top: 0%
+        right: 0%
+
+@media (max-width: 1199.98px)
+    .title-shadow
+        font-size: 65px
+    h1 
+        font-size: 40px
+        line-height: 1
+    .advantages-section
+        li
+            padding-bottom: .5rem
+            &:last-child
+                padding-bottom: 1rem
+
+@media (max-width: 991.98px)
+    h1
+        font-size: 30px
+    .nav-menu__list
+        justify-content: flex-start
+        padding-bottom: 5px
+    .nav-menu__list-item 
+        padding-bottom: .5rem
+        margin-top: .5rem
+    .title-shadow
+        opacity: 0.6
+        line-height: 60px
+    .title-shadow_white
+        opacity: 0.2
+    .photo-gallery-section
+        padding-top: 3rem
+    .advantages-section
+        padding-top: 3rem
+        .title
+            top: -70px
+        li:last-child
+            padding-bottom: 1rem
+    .couch-section
+        padding-top: 3rem
+        &__container
+            max-width: 436px
+            top: 0%
+            max-height: 100%
+        &__title
+            top: -120px
+        &__text 
+            position: relative
+            top: -75px
+    .promotion-section
+        padding-top: 3rem
+        .card-img-top
+            padding-bottom: 1rem
+    .sauna-section
+        padding-top: 3rem
+        .sauna-section-title
+            top: -110px
+        &__second-card-wrapper
+            top: -70px
+    .features-section
+        padding-top: 3rem
+        &__title
+            top: -108px
+        .card-img-top 
+            padding-bottom: 1rem
+        .card 
+            padding-bottom: 2rem
+        .row
+            position: relative
+            top: -40px
+    .hotel-section
+        &__carousel
+            padding-right: 0rem
+    .party-section 
+        padding-top: 3rem
+        .card-img-top
+            margin-bottom: 1rem
+        .card-title
+            margin-bottom: 2rem
+    .answer-section
+        padding-top: 3rem
+    .footer-section
+        .footer__wrapper
+            margin-bottom: 2rem
+
+@media (max-width: 767px)
+    .first-section
+        height: 700px
+    .first-section__container
+        top: 10%
+    .main-container__title
+        margin-bottom: 2rem
+    .title
+        font-size: 32px
+        top: -20px
+    .title-shadow
+        font-size: 42px
+        line-height: 40px
+    .photo-gallery-section
+        &__btn-wrapper
+            margin-bottom: 4rem
+    .advantages-section
+        .title 
+            top: -20px
+    .couch-section
+        .title 
+            top: -50px
+        &__text
+            top: 0px
+        &__container
+            top: 10%
+    .promotion-section
+        .card-body
+            padding-bottom: 2rem
+        &__text
+            padding-top: 0.75rem
+
+    .sauna-section 
+        .sauna-section-title
+            top: -25px
+        &__wrapper
+            padding-top: 0rem
+        &__second-card-wrapper
+            top: 0px
+        .img-fluid
+            display: none
+    .features-section
+        &__title
+            top: -50px
+        .row
+            top: -10px
+
+    .hotel-section
+        &__title
+            top: -40px
+        &__title-shadow
+            top: -10px
+        &__card-text
+            top: -20px
+        .icons-box
+            top: 0px
+        ul
+            top: 0px
+        .btn
+            top: 0px
+
+    .party-section
+        .title
+            top: -45px
+        .card-title
+            text-align: center
+        .card-body
+            padding-right: 0
+    .answer-section
+        .title
+            top: -45px
+
+@media (max-width: 575px)
+    h5
+        font-size: 20px
+    .title
+        font-size: 28px
+    .first-section
+        height: 556px
+        background-image: url(../img/background-mini.jpg)
+        background-position: center
+        background-size: cover
+        &__container
+            top: 5%
+            li
+                font-size: 14px
+                padding-bottom: 1rem
+                padding-left: 2.5rem
+            li:last-child
+                padding-bottom: 0.25rem
+        &__nav-container
+            z-index: 10
+            height: 65px
+            img
+                height: 65px
+    .main-container__title
+        margin-bottom: 1.5rem
+        .title-shadow
+            ///font-size: 32px
+            //line-height: 30px
+    .photo-gallery-section
+        .title
+            top: -45px
+
+    .advantages-section 
+        .title
+            top: -45px
+        .card-title
+            font-size: 20px
+        li
+            padding-bottom: 0.5rem
+            font-size: 14px
+        li:last-child
+            padding-bottom: 0.5rem
+
+    .couch-section
+        &__container
+            top: 7%
+        &__text
+            font-size: 14px
+            font-weight: 500
+            top: -30px
+        .title
+            top: -75px
+
+    .promotion-section
+        .card-body
+            padding-bottom: 1rem
+        .row
+            p
+                font-size: 14px
+        &__text
+            font-size: 14px
+            padding-bottom: 2rem
+
+    .sauna-section
+        min-height: 640px
+        padding-top: 1rem
+        .sauna-section-title
+            top: -75px
+        &__second-card-wrapper
+            top: -30px
+            li
+                font-size: 14px
+                padding-left: 2rem
+            p
+                font-size: 14px
+    .features-section
+        &__title
+            top: -87px
+        .row
+            top: -50px
+        .card
+            padding-bottom: 1rem
+    .kitchen-section
+        padding-top: 3rem
+        min-height: 450px
+    .hotel-section
+        li
+            font-size: 14px
+            padding-left: 2rem
+        &__card-text
+            font-size: 14px
+    .party-section 
+        .title
+            top: -87px
+        &__wrapper
+            position: relative
+            top: -50px
+        .card-title
+            margin-bottom: 1rem
+        .card-text
+            font-size: 14px
+
+    .answer-section 
+        .title
+            top: -61px
+        .accordion
+            position: relative
+            top: -21px
+        .accordion-button
+            font-size: 20px
+        .accordion-body
+            font-size: 14px
+
+    .footer-section 
+        padding-top: 2rem
+        .card-title
+            margin-bottom: 0
+        .card-text
+            margin-bottom: 0
+            &__phone
+                font-weight: 400
+                font-size: 16px
+            &__adress
+                font-weight: 400
+                font-size: 12px
+                span
+                    font-size: 16px
+                margin-bottom: 0.75rem
+        .social-items__box 
+            a
+                margin-bottom: 0.5rem
+        .card-body
+            margin-bottom: 1.5rem
+            

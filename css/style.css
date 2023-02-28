@@ -1,0 +1,1253 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Montserrat-R";
+  src: local("Montserrat");
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-weight: regular;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat-M";
+  src: local("Montserrat");
+  src: url("../fonts/Montserrat-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat-EB";
+  src: local("Montserrat");
+  src: url("../fonts/Montserrat-ExtraBold.ttf");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat-SB";
+  src: local("Montserrat");
+  src: url("../fonts/Montserrat-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat-SB-I";
+  src: local("Montserrat");
+  src: url("../fonts/Montserrat-SemiBoldItalic.ttf");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat-B";
+  src: local("Montserrat");
+  src: url("../fonts/Montserrat-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Oswald-SB";
+  src: url("../fonts/Oswald-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* line 56, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+body {
+  font-family: 'Montserrat-SB';
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* line 61, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.first-section {
+  height: 100vh;
+  background-image: url(../img/background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* line 66, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.first-section a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* line 70, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.first-section__nav-container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 74, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.bi {
+  padding-right: 10px;
+}
+
+/* line 77, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.nav-menu .list-item__telephone {
+  min-width: 160px;
+}
+
+/* line 79, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.nav-menu .list-item__telephone p {
+  margin-bottom: 0;
+}
+
+/* line 81, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+/* line 88, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.nav-menu__list-item {
+  list-style-type: none;
+  color: white;
+}
+
+/* line 91, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.nav-menu__list-item p {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* line 94, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.navbar__adress {
+  margin: 0 auto;
+}
+
+/* line 96, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+ul {
+  padding-left: 0rem;
+  margin-bottom: 0;
+}
+
+/* line 101, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+h1 {
+  color: white;
+  font-family: 'Montserrat-EB';
+  font-size: 50px;
+}
+
+/* line 106, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+h2 {
+  font-family: 'Oswald-SB';
+  font-weight: 600;
+}
+
+/* line 110, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+h5 {
+  font-family: 'Oswald-SB';
+  font-weight: 600;
+  font-size: 24px;
+}
+
+/* line 115, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+h6 {
+  font-family: 'Oswald-SB';
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* line 120, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.modal-dialog .modal-header {
+  position: relative;
+  color: white;
+  border-bottom: none;
+}
+
+/* line 124, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.modal-dialog .modal-footer {
+  border-top: none;
+}
+
+/* line 126, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.modal-dialog .modal-body {
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* line 132, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.modal-dialog .input-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+/* line 136, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.modal-dialog .input-text {
+  font-family: 'Montserrat-M';
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* line 140, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.modal-dialog .modal-content-order {
+  background: url(../img/btn/order-call.jpg) center/contain;
+  background-repeat: no-repeat;
+  width: 558px;
+  height: 620px;
+}
+
+/* line 145, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.btn-submit {
+  font-size: 14px;
+  height: 38px;
+  width: 100%;
+}
+
+/* line 150, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+#navbarSupportedContent {
+  padding: 20px;
+}
+
+/* line 152, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.bg-dark {
+  background-color: #040607 !important;
+}
+
+/* line 159, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.accordion-header {
+  font-family: 'Oswald-SB';
+  font-weight: 600;
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 165, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.accordion-button:not(.collapsed) {
+  color: #EA8F41;
+  background-color: #e7f1ff00;
+}
+
+/* line 169, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.warning-text {
+  color: #FF7600;
+  font-weight: 600;
+}
+
+/* line 173, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.btn-order {
+  width: 196px;
+  height: 46px;
+  font-family: 'Montserrat-B';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* line 180, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.btn-warning {
+  background: #FF7600;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+/* line 186, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.first-section__container {
+  position: relative;
+  top: 5%;
+}
+
+/* line 189, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.first-section__container ul {
+  padding-left: 0rem;
+}
+
+/* line 191, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.first-section__container li {
+  list-style-type: none;
+  background: url(../img/list-item.svg) no-repeat;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+}
+
+/* line 196, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.first-section__container li:last-child {
+  padding-bottom: 4px;
+}
+
+/* line 200, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.main-container__list {
+  color: white;
+  margin-bottom: 3rem;
+}
+
+/* line 204, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.main-container__title {
+  margin-bottom: 2rem;
+}
+
+/* line 207, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.btn-reservation {
+  width: 264px;
+  height: 45px;
+  font-family: 'Montserrat-B';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* line 214, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.btn__room-reservation {
+  width: 264px;
+  height: 45px;
+  font-family: 'Montserrat-B';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* line 221, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.photo-gallery-section {
+  min-height: 550px;
+  background-color: #F1F1F1;
+  padding-top: 5rem;
+  overflow: hidden;
+}
+
+/* line 229, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.photo-gallery-section__btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6rem;
+}
+
+/* line 234, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.title {
+  font-size: 40px;
+  position: relative;
+  top: -30px;
+  font-weight: 600;
+}
+
+/* line 240, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.title_black {
+  color: black;
+}
+
+/* line 245, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.title-shadow {
+  font-family: 'Oswald-SB';
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 70px;
+  display: flex;
+  align-items: center;
+  color: #DFDFDF;
+  margin: 0;
+}
+
+/* line 255, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.carousel-inner {
+  margin-bottom: 3rem;
+}
+
+/* line 258, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.advantages-section {
+  min-height: 850px;
+  padding-top: 5rem;
+  background: url(../img/bubbles.jpg) center/contain;
+}
+
+/* line 262, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.advantages-section ul {
+  padding-left: 0;
+}
+
+/* line 264, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.advantages-section li {
+  list-style-type: none;
+  background: url(../img/list-item.svg) no-repeat;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+}
+
+/* line 269, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.advantages-section li:last-child {
+  padding-bottom: 2rem;
+}
+
+/* line 272, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.advantages-section .card-title {
+  font-size: 24px;
+}
+
+/* line 275, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.card {
+  border: none;
+}
+
+/* line 277, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.card-body {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+/* line 282, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.card-body li {
+  font-size: 15px;
+}
+
+/* line 285, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.couch-section {
+  min-height: 658px;
+  padding-top: 5rem;
+  position: relative;
+  background: url(../img/sofa.jpg) no-repeat center/cover;
+}
+
+/* line 290, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.couch-section__title {
+  top: -60px;
+}
+
+/* line 292, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.couch-section__container {
+  overflow: hidden;
+  position: absolute;
+  top: 10%;
+  right: 0%;
+  max-width: 765px;
+  background: #000000;
+  opacity: 0.8;
+  backdrop-filter: blur(27.5px);
+}
+
+/* line 301, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.couch-section__text {
+  color: #FFFFFF;
+  font-size: 15px;
+}
+
+/* line 305, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.title-shadow_white {
+  color: #F1F1F1;
+  opacity: 0.2;
+}
+
+/* line 309, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.title_white {
+  color: #FFFFFF;
+}
+
+/* line 313, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.promotion-section {
+  min-height: 690px;
+  padding-top: 5rem;
+  background: url(../img/fith-section/back.jpg) center repeat;
+}
+
+/* line 317, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.promotion-section__text {
+  max-width: 558px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+}
+
+/* line 323, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.promotion-section .card-img-top {
+  padding-bottom: 1.75rem;
+}
+
+/* line 327, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.sauna-section {
+  min-height: 720px;
+  background-image: url(../img/six-section/back.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding-top: 5rem;
+}
+
+/* line 334, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.sauna-section__wrapper {
+  padding-top: 0.5rem;
+}
+
+/* line 336, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.sauna-section ul {
+  padding-left: 0rem;
+}
+
+/* line 338, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.sauna-section li {
+  list-style-type: none;
+  background: url(../img/list-item.svg) no-repeat;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+}
+
+/* line 343, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.sauna-section li:last-child {
+  padding-bottom: 0.25rem;
+}
+
+/* line 345, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.sauna-section .sauna-section-title {
+  top: -70px;
+}
+
+/* line 347, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.sauna-section .card-text_italic {
+  margin-bottom: 1.75rem;
+  font-family: "Montserrat-SB-I";
+  font-style: italic;
+}
+
+/* line 351, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.sauna-section__second-card-wrapper {
+  position: relative;
+  top: -25px;
+}
+
+/* line 355, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.features-section {
+  min-height: 720px;
+  background: #F1F1F1;
+  padding-top: 5rem;
+}
+
+/* line 359, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.features-section__title {
+  top: -70px;
+}
+
+/* line 361, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.features-section .card-img-top {
+  padding-bottom: 2rem;
+}
+
+/* line 363, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.features-section .card {
+  padding-bottom: 3rem;
+}
+
+/* line 366, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.kitchen-section {
+  background: url(../img/eighth-section/back.jpg) center/cover no-repeat;
+  min-height: 800px;
+  padding-top: 5rem;
+}
+
+/* line 370, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.kitchen-section .title-shadow {
+  display: block;
+}
+
+/* line 372, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.kitchen-section__text {
+  color: #FFFFFF;
+  font-family: "Montserrat-SB-I";
+}
+
+/* line 375, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.kitchen-section__icons-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* line 380, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.hotel-section {
+  min-height: 900px;
+  overflow: hidden;
+  background: url(../img/ninth-section/head.png) no-repeat left bottom;
+  padding-top: 5rem;
+}
+
+/* line 385, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.hotel-section__carousel {
+  padding-right: 1.5rem;
+}
+
+/* line 387, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.hotel-section__title-shadow {
+  position: relative;
+  top: -20px;
+}
+
+/* line 390, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.hotel-section__title {
+  top: -120px;
+}
+
+/* line 392, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.hotel-section__card-text {
+  position: relative;
+  top: -80px;
+}
+
+/* line 395, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.hotel-section .icons-box {
+  width: 264px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  position: relative;
+  top: -62px;
+}
+
+/* line 403, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.hotel-section ul {
+  padding-left: 0rem;
+  position: relative;
+  top: -62px;
+}
+
+/* line 407, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.hotel-section li {
+  list-style-type: none;
+  background: url(../img/list-item.svg) no-repeat;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+}
+
+/* line 412, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.hotel-section li:last-child {
+  padding-bottom: 0.25rem;
+}
+
+/* line 414, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.hotel-section .btn-order {
+  position: relative;
+  top: -62px;
+  margin-bottom: 3rem;
+}
+
+/* line 418, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.hotel-section .badge {
+  background-color: #FF7600;
+  padding: 10px 10px;
+  opacity: 0.9;
+  border-radius: 5px;
+  right: 1rem;
+  top: 1rem;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* line 428, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.modal-content-room-reservation {
+  background: url(../img/btn/reserv-room.jpg) center/contain;
+  background-repeat: no-repeat;
+  width: 558px;
+  height: 620px;
+}
+
+/* line 434, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.modal-content-reservation {
+  background: url(../img/btn/reservation.jpg) center/contain;
+  background-repeat: no-repeat;
+  width: 558px;
+  height: 620px;
+}
+
+/* line 441, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.party-section {
+  min-height: 720px;
+  background: #F1F1F1;
+  padding-top: 5rem;
+}
+
+/* line 445, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.party-section__title {
+  top: -70px;
+}
+
+/* line 447, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.party-section .card-img-top {
+  margin-bottom: 1.75rem;
+}
+
+/* line 449, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.party-section .card-title {
+  margin-bottom: 3rem;
+}
+
+/* line 451, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.party-section .card-text {
+  padding-top: 0.75rem;
+}
+
+/* line 454, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.answer-section {
+  padding-top: 5rem;
+  min-height: 1000px;
+  padding-bottom: 5rem;
+}
+
+/* line 458, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.answer-section__title {
+  top: -70px;
+}
+
+/* line 460, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.answer-section .accordion-button {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* line 464, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.footer-section {
+  min-height: 700px;
+  overflow: hidden;
+  background: url(../img/footer/back.jpg) no-repeat center/cover;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* line 470, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.footer-section .card-text {
+  color: white;
+}
+
+/* line 472, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.footer-section .card-text__phone {
+  font-family: 'Montserrat-B';
+  font-weight: 700;
+  font-size: 24px;
+}
+
+/* line 476, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.footer-section .card-text__adress {
+  margin-bottom: 2rem;
+  font-size: 15px;
+}
+
+/* line 479, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.footer-section .card-text__adress span {
+  font-size: 18px;
+}
+
+/* line 482, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.footer-section .social-items__box a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+
+/* line 491, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.footer-section .social-items__box img {
+  padding-right: 1.5rem;
+}
+
+/* line 493, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.footer-section .social-items__box p {
+  margin-bottom: 0;
+  font-family: "Oswald-SB";
+}
+
+/* line 496, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.footer-section__btn {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+/* line 499, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+.footer-section iframe {
+  z-index: 1;
+  position: relative;
+  top: 0%;
+  right: 0%;
+}
+
+@media (max-width: 1199.98px) {
+  /* line 506, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .title-shadow {
+    font-size: 65px;
+  }
+  /* line 508, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  h1 {
+    font-size: 40px;
+    line-height: 1;
+  }
+  /* line 512, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .advantages-section li {
+    padding-bottom: .5rem;
+  }
+  /* line 514, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .advantages-section li:last-child {
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  /* line 518, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  h1 {
+    font-size: 30px;
+  }
+  /* line 520, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .nav-menu__list {
+    justify-content: flex-start;
+    padding-bottom: 5px;
+  }
+  /* line 523, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .nav-menu__list-item {
+    padding-bottom: .5rem;
+    margin-top: .5rem;
+  }
+  /* line 526, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .title-shadow {
+    opacity: 0.6;
+    line-height: 60px;
+  }
+  /* line 529, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .title-shadow_white {
+    opacity: 0.2;
+  }
+  /* line 531, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .photo-gallery-section {
+    padding-top: 3rem;
+  }
+  /* line 533, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .advantages-section {
+    padding-top: 3rem;
+  }
+  /* line 535, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .advantages-section .title {
+    top: -70px;
+  }
+  /* line 537, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .advantages-section li:last-child {
+    padding-bottom: 1rem;
+  }
+  /* line 539, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .couch-section {
+    padding-top: 3rem;
+  }
+  /* line 541, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .couch-section__container {
+    max-width: 436px;
+    top: 0%;
+    max-height: 100%;
+  }
+  /* line 545, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .couch-section__title {
+    top: -120px;
+  }
+  /* line 547, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .couch-section__text {
+    position: relative;
+    top: -75px;
+  }
+  /* line 550, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .promotion-section {
+    padding-top: 3rem;
+  }
+  /* line 552, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .promotion-section .card-img-top {
+    padding-bottom: 1rem;
+  }
+  /* line 554, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .sauna-section {
+    padding-top: 3rem;
+  }
+  /* line 556, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .sauna-section .sauna-section-title {
+    top: -110px;
+  }
+  /* line 558, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .sauna-section__second-card-wrapper {
+    top: -70px;
+  }
+  /* line 560, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .features-section {
+    padding-top: 3rem;
+  }
+  /* line 562, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .features-section__title {
+    top: -108px;
+  }
+  /* line 564, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .features-section .card-img-top {
+    padding-bottom: 1rem;
+  }
+  /* line 566, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .features-section .card {
+    padding-bottom: 2rem;
+  }
+  /* line 568, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .features-section .row {
+    position: relative;
+    top: -40px;
+  }
+  /* line 572, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .hotel-section__carousel {
+    padding-right: 0rem;
+  }
+  /* line 574, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .party-section {
+    padding-top: 3rem;
+  }
+  /* line 576, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .party-section .card-img-top {
+    margin-bottom: 1rem;
+  }
+  /* line 578, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .party-section .card-title {
+    margin-bottom: 2rem;
+  }
+  /* line 580, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .answer-section {
+    padding-top: 3rem;
+  }
+  /* line 583, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .footer-section .footer__wrapper {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 587, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .first-section {
+    height: 700px;
+  }
+  /* line 589, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .first-section__container {
+    top: 10%;
+  }
+  /* line 591, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .main-container__title {
+    margin-bottom: 2rem;
+  }
+  /* line 593, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .title {
+    font-size: 32px;
+    top: -20px;
+  }
+  /* line 596, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .title-shadow {
+    font-size: 42px;
+    line-height: 40px;
+  }
+  /* line 600, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .photo-gallery-section__btn-wrapper {
+    margin-bottom: 4rem;
+  }
+  /* line 603, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .advantages-section .title {
+    top: -20px;
+  }
+  /* line 606, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .couch-section .title {
+    top: -50px;
+  }
+  /* line 608, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .couch-section__text {
+    top: 0px;
+  }
+  /* line 610, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .couch-section__container {
+    top: 10%;
+  }
+  /* line 613, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .promotion-section .card-body {
+    padding-bottom: 2rem;
+  }
+  /* line 615, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .promotion-section__text {
+    padding-top: 0.75rem;
+  }
+  /* line 619, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .sauna-section .sauna-section-title {
+    top: -25px;
+  }
+  /* line 621, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .sauna-section__wrapper {
+    padding-top: 0rem;
+  }
+  /* line 623, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .sauna-section__second-card-wrapper {
+    top: 0px;
+  }
+  /* line 625, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .sauna-section .img-fluid {
+    display: none;
+  }
+  /* line 628, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .features-section__title {
+    top: -50px;
+  }
+  /* line 630, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .features-section .row {
+    top: -10px;
+  }
+  /* line 634, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .hotel-section__title {
+    top: -40px;
+  }
+  /* line 636, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .hotel-section__title-shadow {
+    top: -10px;
+  }
+  /* line 638, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .hotel-section__card-text {
+    top: -20px;
+  }
+  /* line 640, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .hotel-section .icons-box {
+    top: 0px;
+  }
+  /* line 642, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .hotel-section ul {
+    top: 0px;
+  }
+  /* line 644, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .hotel-section .btn {
+    top: 0px;
+  }
+  /* line 648, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .party-section .title {
+    top: -45px;
+  }
+  /* line 650, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .party-section .card-title {
+    text-align: center;
+  }
+  /* line 652, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .party-section .card-body {
+    padding-right: 0;
+  }
+  /* line 655, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .answer-section .title {
+    top: -45px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 659, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  h5 {
+    font-size: 20px;
+  }
+  /* line 661, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .title {
+    font-size: 28px;
+  }
+  /* line 663, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .first-section {
+    height: 556px;
+    background-image: url(../img/background-mini.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 668, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .first-section__container {
+    top: 5%;
+  }
+  /* line 670, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .first-section__container li {
+    font-size: 14px;
+    padding-bottom: 1rem;
+    padding-left: 2.5rem;
+  }
+  /* line 674, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .first-section__container li:last-child {
+    padding-bottom: 0.25rem;
+  }
+  /* line 676, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .first-section__nav-container {
+    z-index: 10;
+    height: 65px;
+  }
+  /* line 679, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .first-section__nav-container img {
+    height: 65px;
+  }
+  /* line 681, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .main-container__title {
+    margin-bottom: 1.5rem;
+  }
+  /* line 687, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .photo-gallery-section .title {
+    top: -45px;
+  }
+  /* line 691, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .advantages-section .title {
+    top: -45px;
+  }
+  /* line 693, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .advantages-section .card-title {
+    font-size: 20px;
+  }
+  /* line 695, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .advantages-section li {
+    padding-bottom: 0.5rem;
+    font-size: 14px;
+  }
+  /* line 698, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .advantages-section li:last-child {
+    padding-bottom: 0.5rem;
+  }
+  /* line 702, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .couch-section__container {
+    top: 7%;
+  }
+  /* line 704, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .couch-section__text {
+    font-size: 14px;
+    font-weight: 500;
+    top: -30px;
+  }
+  /* line 708, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .couch-section .title {
+    top: -75px;
+  }
+  /* line 712, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .promotion-section .card-body {
+    padding-bottom: 1rem;
+  }
+  /* line 715, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .promotion-section .row p {
+    font-size: 14px;
+  }
+  /* line 717, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .promotion-section__text {
+    font-size: 14px;
+    padding-bottom: 2rem;
+  }
+  /* line 721, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .sauna-section {
+    min-height: 640px;
+    padding-top: 1rem;
+  }
+  /* line 724, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .sauna-section .sauna-section-title {
+    top: -75px;
+  }
+  /* line 726, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .sauna-section__second-card-wrapper {
+    top: -30px;
+  }
+  /* line 728, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .sauna-section__second-card-wrapper li {
+    font-size: 14px;
+    padding-left: 2rem;
+  }
+  /* line 731, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .sauna-section__second-card-wrapper p {
+    font-size: 14px;
+  }
+  /* line 734, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .features-section__title {
+    top: -87px;
+  }
+  /* line 736, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .features-section .row {
+    top: -50px;
+  }
+  /* line 738, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .features-section .card {
+    padding-bottom: 1rem;
+  }
+  /* line 740, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .kitchen-section {
+    padding-top: 3rem;
+    min-height: 450px;
+  }
+  /* line 744, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .hotel-section li {
+    font-size: 14px;
+    padding-left: 2rem;
+  }
+  /* line 747, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .hotel-section__card-text {
+    font-size: 14px;
+  }
+  /* line 750, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .party-section .title {
+    top: -87px;
+  }
+  /* line 752, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .party-section__wrapper {
+    position: relative;
+    top: -50px;
+  }
+  /* line 755, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .party-section .card-title {
+    margin-bottom: 1rem;
+  }
+  /* line 757, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .party-section .card-text {
+    font-size: 14px;
+  }
+  /* line 761, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .answer-section .title {
+    top: -61px;
+  }
+  /* line 763, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .answer-section .accordion {
+    position: relative;
+    top: -21px;
+  }
+  /* line 766, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .answer-section .accordion-button {
+    font-size: 20px;
+  }
+  /* line 768, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .answer-section .accordion-body {
+    font-size: 14px;
+  }
+  /* line 771, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .footer-section {
+    padding-top: 2rem;
+  }
+  /* line 773, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .footer-section .card-title {
+    margin-bottom: 0;
+  }
+  /* line 775, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .footer-section .card-text {
+    margin-bottom: 0;
+  }
+  /* line 777, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .footer-section .card-text__phone {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  /* line 780, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .footer-section .card-text__adress {
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 0.75rem;
+  }
+  /* line 783, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .footer-section .card-text__adress span {
+    font-size: 16px;
+  }
+  /* line 787, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .footer-section .social-items__box a {
+    margin-bottom: 0.5rem;
+  }
+  /* line 789, D:/documents/Обучение/Проект работа/ПРОЕКТЫ/sauna some of them/Sauna-Viza-main/sass/style.sass */
+  .footer-section .card-body {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,930 @@
+@font-face {
+  font-family: "Montserrat-R";
+  src: local("Montserrat");
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-weight: regular;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat-M";
+  src: local("Montserrat");
+  src: url("../fonts/Montserrat-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat-EB";
+  src: local("Montserrat");
+  src: url("../fonts/Montserrat-ExtraBold.ttf");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat-SB";
+  src: local("Montserrat");
+  src: url("../fonts/Montserrat-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat-SB-I";
+  src: local("Montserrat");
+  src: url("../fonts/Montserrat-SemiBoldItalic.ttf");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat-B";
+  src: local("Montserrat");
+  src: url("../fonts/Montserrat-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Oswald-SB";
+  src: url("../fonts/Oswald-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: "Montserrat-SB";
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.first-section {
+  height: 850px;
+  background-image: url(../img/background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.first-section a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+}
+.first-section__nav-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.bi {
+  padding-right: 10px;
+}
+
+.nav-menu .list-item__telephone {
+  min-width: 160px;
+}
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+  margin-top: 33px;
+  margin-right: 15px;
+}
+.nav-menu ul {
+  padding-left: 0rem;
+}
+.nav-menu__list-item {
+  list-style-type: none;
+  color: white;
+}
+.nav-menu__list-item p {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.navbar__adress {
+  margin: 0 auto;
+}
+
+h1 {
+  color: white;
+  font-family: "Montserrat-EB";
+  font-size: 50px;
+}
+
+h2 {
+  font-family: "Oswald-SB";
+  font-weight: 600;
+}
+
+h5 {
+  font-family: "Oswald-SB";
+  font-weight: 600;
+  font-size: 24px;
+}
+
+h6 {
+  font-family: "Oswald-SB";
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.modal-dialog .modal-header {
+  position: relative;
+  color: white;
+  border-bottom: none;
+}
+.modal-dialog .modal-footer {
+  border-top: none;
+}
+.modal-dialog .modal-body {
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.modal-dialog .input-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.modal-dialog .input-text {
+  font-family: "Montserrat-M";
+  font-weight: 500;
+  font-size: 14px;
+}
+.modal-dialog .modal-content-order {
+  background: url(../img/btn/order-call.jpg) center/contain;
+  background-repeat: no-repeat;
+  width: 558px;
+  height: 620px;
+}
+.btn-submit {
+  font-size: 14px;
+  height: 38px;
+  width: 100%;
+}
+
+.accordion-header {
+  font-family: "Oswald-SB";
+  font-weight: 600;
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #EA8F41;
+  background-color: rgba(231, 241, 255, 0);
+}
+
+.warning-text {
+  color: #FF7600;
+  font-weight: 600;
+}
+
+.btn-order {
+  width: 196px;
+  height: 35px;
+  font-family: "Montserrat-B";
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.btn-warning {
+  background: #FF7600;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.first-section__container {
+  position: relative;
+  top: 20%;
+}
+.first-section__container ul {
+  padding-left: 0rem;
+}
+.first-section__container li {
+  list-style-type: none;
+  background: url(../img/list-item.svg) no-repeat;
+  padding-left: 3rem;
+  padding-bottom: 1.5rem;
+}
+.first-section__container li:last-child {
+  padding-bottom: 2px;
+}
+
+.main-container__list {
+  color: white;
+  margin-bottom: 3rem;
+}
+.main-container__title {
+  margin-bottom: 3.75rem;
+}
+
+.btn-reservation {
+  width: 264px;
+  height: 45px;
+  font-family: "Montserrat-B";
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.btn__room-reservation {
+  width: 264px;
+  height: 45px;
+  font-family: "Montserrat-B";
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.second-section {
+  min-height: 550px;
+  background-color: #F1F1F1;
+  padding-top: 5rem;
+  overflow: hidden;
+}
+.second-section__btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6rem;
+}
+
+.title {
+  font-size: 40px;
+  position: relative;
+  top: -30px;
+  font-weight: 600;
+}
+
+.title_black {
+  color: black;
+}
+
+.title-shadow {
+  font-family: "Oswald-SB";
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 70px;
+  display: flex;
+  align-items: center;
+  color: #DFDFDF;
+  margin: 0;
+}
+
+.carousel-inner {
+  margin-bottom: 3rem;
+}
+
+.third-section {
+  min-height: 850px;
+  padding-top: 5rem;
+  background: url(../img/bubbles.jpg) center/contain;
+}
+.third-section ul {
+  padding-left: 0;
+}
+.third-section li {
+  list-style-type: none;
+  background: url(../img/list-item.svg) no-repeat;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+}
+.third-section li:last-child {
+  padding-bottom: 2rem;
+}
+.third-section .card-title {
+  font-size: 24px;
+}
+
+.card {
+  border: none;
+}
+
+.card-body {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+.card-body li {
+  font-size: 15px;
+}
+
+.forth-section {
+  min-height: 658px;
+  padding-top: 5rem;
+  position: relative;
+  background: url(../img/sofa.jpg) no-repeat center/cover;
+}
+.forth-section__title {
+  top: -60px;
+}
+.forth-section__container {
+  overflow: hidden;
+  position: absolute;
+  top: 10%;
+  right: 0%;
+  max-width: 765px;
+  background: #000000;
+  opacity: 0.8;
+  -webkit-backdrop-filter: blur(27.5px);
+          backdrop-filter: blur(27.5px);
+}
+.forth-section__text {
+  color: #FFFFFF;
+  font-size: 15px;
+}
+
+.title-shadow_white {
+  color: #F1F1F1;
+  opacity: 0.2;
+}
+
+.title_white {
+  color: #FFFFFF;
+}
+
+.fith-section {
+  min-height: 690px;
+  padding-top: 5rem;
+  background: url(../img/fith-section/back.jpg) center repeat;
+}
+.fith-section__text {
+  max-width: 558px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+}
+.fith-section .card-img-top {
+  padding-bottom: 1.75rem;
+}
+
+.six-section {
+  min-height: 720px;
+  background-image: url(../img/six-section/back.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding-top: 5rem;
+}
+.six-section__wrapper {
+  padding-top: 0.5rem;
+}
+.six-section ul {
+  padding-left: 0rem;
+}
+.six-section li {
+  list-style-type: none;
+  background: url(../img/list-item.svg) no-repeat;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+}
+.six-section li:last-child {
+  padding-bottom: 0.25rem;
+}
+.six-section .six-section-title {
+  top: -70px;
+}
+.six-section .card-text_italic {
+  margin-bottom: 1.75rem;
+  font-family: "Montserrat-SB-I";
+  font-style: italic;
+}
+.six-section__second-card-wrapper {
+  position: relative;
+  top: -25px;
+}
+
+.features-section {
+  min-height: 720px;
+  background: #F1F1F1;
+  padding-top: 5rem;
+}
+.features-section__title {
+  top: -70px;
+}
+.features-section .card-img-top {
+  padding-bottom: 2rem;
+}
+.features-section .card {
+  padding-bottom: 3rem;
+}
+
+.kitchen-section {
+  background: url(../img/eighth-section/back.jpg) center/cover no-repeat;
+  min-height: 800px;
+  padding-top: 5rem;
+}
+.kitchen-section .title-shadow {
+  display: block;
+}
+.kitchen-section__text {
+  color: #FFFFFF;
+  font-family: "Montserrat-SB-I";
+}
+.kitchen-section__icons-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.hotel-section {
+  min-height: 900px;
+  overflow: hidden;
+  background: url(../img/ninth-section/head.png) no-repeat left bottom;
+  padding-top: 5rem;
+}
+.hotel-section__carousel {
+  padding-right: 1.5rem;
+}
+.hotel-section__title-shadow {
+  position: relative;
+  top: -20px;
+}
+.hotel-section__title {
+  top: -120px;
+}
+.hotel-section__card-text {
+  position: relative;
+  top: -80px;
+}
+.hotel-section .icons-box {
+  width: 264px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  position: relative;
+  top: -62px;
+}
+.hotel-section ul {
+  padding-left: 0rem;
+  position: relative;
+  top: -62px;
+}
+.hotel-section li {
+  list-style-type: none;
+  background: url(../img/list-item.svg) no-repeat;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+}
+.hotel-section li:last-child {
+  padding-bottom: 0.25rem;
+}
+.hotel-section .btn-order {
+  position: relative;
+  top: -62px;
+  margin-bottom: 3rem;
+}
+.hotel-section .badge {
+  background-color: #FF7600;
+  padding: 10px 10px;
+  opacity: 0.9;
+  border-radius: 5px;
+  right: 1rem;
+  top: 1rem;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.modal-content-room-reservation {
+  background: url(../img/btn/reserv-room.jpg) center/contain;
+  background-repeat: no-repeat;
+  width: 558px;
+  height: 620px;
+}
+
+.modal-content-reservation {
+  background: url(../img/btn/reservation.jpg) center/contain;
+  background-repeat: no-repeat;
+  width: 558px;
+  height: 620px;
+}
+
+.party-section {
+  min-height: 720px;
+  background: #F1F1F1;
+  padding-top: 5rem;
+}
+.party-section__title {
+  top: -70px;
+}
+.party-section .card-img-top {
+  margin-bottom: 1.75rem;
+}
+.party-section .card-title {
+  margin-bottom: 3rem;
+}
+.party-section .card-text {
+  padding-top: 0.75rem;
+}
+
+.answer-section {
+  padding-top: 5rem;
+  min-height: 1000px;
+  padding-bottom: 5rem;
+}
+.answer-section__title {
+  top: -70px;
+}
+.answer-section .accordion-button {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.footer-section {
+  min-height: 700px;
+  overflow: hidden;
+  background: url(../img/footer/back.jpg) no-repeat center/cover;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.footer-section .card-text {
+  color: white;
+}
+.footer-section .card-text__phone {
+  font-family: "Montserrat-B";
+  font-weight: 700;
+  font-size: 24px;
+}
+.footer-section .card-text__adress {
+  margin-bottom: 2rem;
+  font-size: 15px;
+}
+.footer-section .card-text__adress span {
+  font-size: 18px;
+}
+.footer-section .social-items__box a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+.footer-section .social-items__box img {
+  padding-right: 1.5rem;
+}
+.footer-section .social-items__box p {
+  margin-bottom: 0;
+  font-family: "Oswald-SB";
+}
+.footer-section__btn {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.footer-section iframe {
+  z-index: 1;
+  position: relative;
+  top: 0%;
+  right: 0%;
+}
+
+@media (max-width: 1199.98px) {
+  .title-shadow {
+    font-size: 65px;
+  }
+}
+@media (max-width: 991.98px) {
+  .title-shadow {
+    opacity: 0.6;
+    line-height: 60px;
+  }
+  .title-shadow_white {
+    opacity: 0.2;
+  }
+  .second-section {
+    padding-top: 3rem;
+  }
+  .third-section {
+    padding-top: 3rem;
+  }
+  .third-section .title {
+    top: -70px;
+  }
+  .third-section li:last-child {
+    padding-bottom: 1rem;
+  }
+  .forth-section {
+    padding-top: 3rem;
+  }
+  .forth-section__container {
+    max-width: 436px;
+    top: 0%;
+    max-height: 100%;
+  }
+  .forth-section__title {
+    top: -120px;
+  }
+  .forth-section__text {
+    position: relative;
+    top: -75px;
+  }
+  .fith-section {
+    padding-top: 3rem;
+  }
+  .fith-section .card-img-top {
+    padding-bottom: 1rem;
+  }
+  .six-section {
+    padding-top: 3rem;
+  }
+  .six-section .six-section-title {
+    top: -110px;
+  }
+  .six-section__second-card-wrapper {
+    top: -70px;
+  }
+  .features-section {
+    padding-top: 3rem;
+  }
+  .features-section__title {
+    top: -108px;
+  }
+  .features-section .card-img-top {
+    padding-bottom: 1rem;
+  }
+  .features-section .card {
+    padding-bottom: 2rem;
+  }
+  .features-section .row {
+    position: relative;
+    top: -40px;
+  }
+  .hotel-section__carousel {
+    padding-right: 0rem;
+  }
+  .party-section {
+    padding-top: 3rem;
+  }
+  .party-section .card-img-top {
+    margin-bottom: 1rem;
+  }
+  .party-section .card-title {
+    margin-bottom: 2rem;
+  }
+  .answer-section {
+    padding-top: 3rem;
+  }
+  .footer-section .footer__wrapper {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .first-section {
+    height: 700px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .first-section__container {
+    top: 10%;
+  }
+  .main-container__title {
+    margin-bottom: 2rem;
+  }
+  .title {
+    font-size: 32px;
+    top: -20px;
+  }
+  .title-shadow {
+    font-size: 42px;
+    line-height: 40px;
+  }
+  .second-section__btn-wrapper {
+    margin-bottom: 4rem;
+  }
+  .third-section .title {
+    top: -20px;
+  }
+  .forth-section .title {
+    top: -50px;
+  }
+  .forth-section__text {
+    top: 0px;
+  }
+  .forth-section__container {
+    top: 10%;
+  }
+  .fith-section .card-body {
+    padding-bottom: 2rem;
+  }
+  .fith-section__text {
+    padding-top: 0.75rem;
+  }
+  .six-section .six-section-title {
+    top: -25px;
+  }
+  .six-section__wrapper {
+    padding-top: 0rem;
+  }
+  .six-section__second-card-wrapper {
+    top: 0px;
+  }
+  .six-section .img-fluid {
+    display: none;
+  }
+  .features-section__title {
+    top: -50px;
+  }
+  .features-section .row {
+    top: -10px;
+  }
+  .hotel-section__title {
+    top: -40px;
+  }
+  .hotel-section__title-shadow {
+    top: -10px;
+  }
+  .hotel-section__card-text {
+    top: -20px;
+  }
+  .hotel-section .icons-box {
+    top: 0px;
+  }
+  .hotel-section ul {
+    top: 0px;
+  }
+  .hotel-section .btn {
+    top: 0px;
+  }
+  .party-section .title {
+    top: -45px;
+  }
+  .party-section .card-title {
+    text-align: center;
+  }
+  .party-section .card-body {
+    padding-right: 0;
+  }
+  .answer-section .title {
+    top: -45px;
+  }
+}
+@media (max-width: 575px) {
+  h1 {
+    font-size: 32px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  .title {
+    font-size: 28px;
+  }
+  .first-section {
+    height: 556px;
+    background-image: url(../img/background-mini.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .first-section__container {
+    top: 5%;
+  }
+  .first-section__container li {
+    font-size: 14px;
+    padding-bottom: 1rem;
+    padding-left: 2.5rem;
+  }
+  .first-section__container li:last-child {
+    padding-bottom: 0.25rem;
+  }
+  .first-section__nav-container {
+    height: 65px;
+  }
+  .first-section__nav-container img {
+    height: 65px;
+  }
+  .main-container__title {
+    margin-bottom: 1.5rem;
+  }
+  .second-section .title {
+    top: -45px;
+  }
+  .third-section .title {
+    top: -45px;
+  }
+  .third-section .card-title {
+    font-size: 20px;
+  }
+  .third-section li {
+    padding-bottom: 0.5rem;
+    font-size: 14px;
+  }
+  .third-section li:last-child {
+    padding-bottom: 0.5rem;
+  }
+  .forth-section__container {
+    top: 7%;
+  }
+  .forth-section__text {
+    font-size: 14px;
+    font-weight: 500;
+    top: -30px;
+  }
+  .forth-section .title {
+    top: -75px;
+  }
+  .fith-section .card-body {
+    padding-bottom: 1rem;
+  }
+  .fith-section .row p {
+    font-size: 14px;
+  }
+  .fith-section__text {
+    font-size: 14px;
+    padding-bottom: 2rem;
+  }
+  .six-section {
+    min-height: 640px;
+    padding-top: 1rem;
+  }
+  .six-section .six-section-title {
+    top: -75px;
+  }
+  .six-section__second-card-wrapper {
+    top: -30px;
+  }
+  .six-section__second-card-wrapper li {
+    font-size: 14px;
+    padding-left: 2rem;
+  }
+  .six-section__second-card-wrapper p {
+    font-size: 14px;
+  }
+  .features-section__title {
+    top: -87px;
+  }
+  .features-section .row {
+    top: -50px;
+  }
+  .features-section .card {
+    padding-bottom: 1rem;
+  }
+  .kitchen-section {
+    padding-top: 3rem;
+    min-height: 450px;
+  }
+  .hotel-section li {
+    font-size: 14px;
+    padding-left: 2rem;
+  }
+  .hotel-section__card-text {
+    font-size: 14px;
+  }
+  .party-section .title {
+    top: -87px;
+  }
+  .party-section__wrapper {
+    position: relative;
+    top: -50px;
+  }
+  .party-section .card-title {
+    margin-bottom: 1rem;
+  }
+  .party-section .card-text {
+    font-size: 14px;
+  }
+  .answer-section .title {
+    top: -61px;
+  }
+  .answer-section .accordion {
+    position: relative;
+    top: -21px;
+  }
+  .answer-section .accordion-button {
+    font-size: 20px;
+  }
+  .answer-section .accordion-body {
+    font-size: 14px;
+  }
+  .footer-section {
+    padding-top: 2rem;
+  }
+  .footer-section .card-title {
+    margin-bottom: 0;
+  }
+  .footer-section .card-text {
+    margin-bottom: 0;
+  }
+  .footer-section .card-text__phone {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .footer-section .card-text__adress {
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 0.75rem;
+  }
+  .footer-section .card-text__adress span {
+    font-size: 16px;
+  }
+  .footer-section .social-items__box a {
+    margin-bottom: 0.5rem;
+  }
+  .footer-section .card-body {
+    margin-bottom: 1.5rem;
+  }
+}
